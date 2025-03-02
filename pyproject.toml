@@ -1,0 +1,36 @@
+[project]
+name = "python-fastapi-demo"
+version = "0.1.0"
+description = "A sample FastAPI project demonstrating basic endpoints, dependency injection, and background tasks."
+readme = { file = "README.md", content-type = "text/markdown" }
+authors = [
+    { name = "Wallace Espindola", email = "wallace.espindola@gmail.com" }
+]
+license = { file = "LICENSE", text = "Apache License 2.0" }
+homepage = "https://www.wtechitsolutions.com/"
+repository = "https://github.com/wallaceespindola/python-fastapi-demo"
+documentation = "https://github.com/wallaceespindola/python-fastapi-demo"
+keywords = ["fastapi", "python", "rest", "api", "async", "uvicorn", "pydantic", "starlette", "demo", "microservices"]
+dynamic = ["dependencies"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+LinkedIn = "https://www.linkedin.com/in/wallaceespindola/"
+GitHub = "https://github.com/wallaceespindola"
+Twitter = "https://twitter.com/wsespindola"
+Gravatar = "https://gravatar.com/wallacese"
+DevCommunityArticles = "https://dev.to/wallaceespindola"
+DzoneArticles = "https://dzone.com/users/1254611/wallacese.html"
+LinkedInArticles = "https://www.linkedin.com/in/wallaceespindola/recent-activity/articles/"
+Slides = "https://speakerdeck.com/wallacese"
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

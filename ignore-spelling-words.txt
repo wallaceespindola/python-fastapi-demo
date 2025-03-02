@@ -1,0 +1,5 @@
+POIN
+assertIn
+assertNotIn
+pEvent
+doubleClick
