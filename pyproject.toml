@@ -6,7 +6,7 @@ readme = { file = "README.md", content-type = "text/markdown" }
 authors = [
     { name = "Wallace Espindola", email = "wallace.espindola@gmail.com" }
 ]
-license = { file = "LICENSE", text = "Apache License 2.0" }
+license = { file = "LICENSE", text = "Apache License, Version 2.0" }
 homepage = "https://www.wtechitsolutions.com/"
 repository = "https://github.com/wallaceespindola/python-fastapi-demo"
 documentation = "https://github.com/wallaceespindola/python-fastapi-demo"
@@ -32,5 +32,5 @@ Slides = "https://speakerdeck.com/wallacese"
 dependencies = { file = ["requirements.txt"] }
 
 [build-system]
-requires = ["setuptools", "wheel"]
+requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
