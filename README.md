@@ -1,3 +1,5 @@
+![fastapi_logo.png](resources/fastapi_logo.png)
+
 # FastAPI Demo Project
 
 A demo on **FastAPI**: Fast and Modern API Development.

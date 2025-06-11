@@ -32,5 +32,5 @@ Slides = "https://speakerdeck.com/wallacese"
 dependencies = { file = ["requirements.txt"] }
 
 [build-system]
-requires = ["setuptools>=42", "wheel"]
+requires = ["setuptools>=70", "wheel"]
 build-backend = "setuptools.build_meta"
