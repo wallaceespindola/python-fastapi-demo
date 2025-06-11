@@ -66,6 +66,7 @@ The interactive API documentation can be checked out at:
 
 ## Author Information
 
+- Wallace Espindola, Sr. Software Engineer / Java & Python Dev
 - **LinkedIn:** [linkedin.com/in/wallaceespindola/](https://www.linkedin.com/in/wallaceespindola/)
 - **GitHub:** [github.com/wallaceespindola](https://github.com/wallaceespindola)
 - **E-mail:** [wallace.espindola@gmail.com](mailto:wallace.espindola@gmail.com)
